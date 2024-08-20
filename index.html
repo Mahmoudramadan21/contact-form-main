@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <!-- Main Css File -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- FontAwesome File -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="contact-us">
+    <div class="container">
+      <h2>Contact Us</h2>
+
+      <form action="#" method="post">
+        <div class="name-group">
+          <div class="fName name-item field">
+            <label for="fName">First Name <span>*</span></label>
+            <input type="text" id="fName" name="fName">
+            <h5 class="error-msg"></h5>
+          </div>
+
+          <div class="lName name-item field">
+            <label for="lName">Last Name <span>*</span></label>
+            <input type="text" id="lName" name="lName">
+            <h5 class="error-msg"></h5>
+          </div>
+        </div>
+
+        <div class="email-item  field">
+          <label for="email">Email Address <span>*</span></label>
+          <input type="email" id="email" name="email">
+          <h5 class="error-msg"></h5>
+        </div>
+
+        <div class="query-group field">
+          <label>Query Type <span>*</span></label>
+
+          <div class="query-options">
+            <div class="query-option">
+              <input type="radio" id="qType1" name="qType" value="general enquiry">
+              <label for="qType1">General Enquiry</label>
+            </div>
+
+            <div class="query-option">
+              <input type="radio" id="qType2" name="qType" value="support request">
+              <label for="qType2">Support Request</label>
+            </div>
+          </div>
+
+          <h5 class="error-msg"></h5>
+        </div>
+
+        <div class="message-item  field">
+          <label for="msg">Message <span>*</span></label>
+          <textarea name="msg" id="msg" rows="7" cols="1"></textarea>
+          <h5 class="error-msg"></h5>
+        </div>
+        
+        <div class="consent-item">
+          <input type="checkbox" id="consent" name="consent">
+          <label for="consent">I consent to being contacted by the team <span>*</span></label>
+          <h5 class="error-msg"></h5>
+        </div>
+
+        <input type="submit" class="submit" value="Submit">
+        </div>
+      </form>
+
+      <div class="success-msg">
+        <h2>Message Sent!</h2>
+        <p>Thanks for completing the form. We'll be in touch soon!</p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
