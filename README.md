@@ -18,7 +18,7 @@ This is a responsive and accessible contact form built using HTML, CSS, and Java
 ## Live Demo
 
 You can check out the live demo here:  
-[Live Demo](https://mahmoudramadan21.github.io/6.-contact-form-main/)
+[Live Demo](https://mahmoudramadan21.github.io/contact-form-main/)
 
 ## How to Use
 
