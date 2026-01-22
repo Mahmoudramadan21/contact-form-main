@@ -24,7 +24,7 @@ You can check out the live demo here:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Mahmoudramadan21/6.-contact-form-main.git
+   git clone https://github.com/Mahmoudramadan21/contact-form-main.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
